@@ -13,6 +13,9 @@ const SongCard = (props) => {
                     <Text>{props.song.artist}</Text>
                     <Text style={styles.year}>{props.song.year}</Text>
                 </View>
+               <View>
+                <Text>{props.song.album}</Text>
+               </View>
             </View>
         </View>
     )
